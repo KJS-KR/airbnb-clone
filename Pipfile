@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==2.2.5"
+pillow = "*"
+django-seed = "*"
+django-extensions = "*"
+django-dotenv = "*"
+requests = "*"
+django-countries = "*"
+pipenv-to-requirements = "*"
+
+[dev-packages]
+flake8 = "*"
+awsebcli = "*"
+
+[requires]
+python_version = "3.6.9"
+
+[pipenv]
+allow_prereleases = true
